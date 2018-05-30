@@ -1,0 +1,31 @@
+
+$bg-colour: rgb(50, 100, 120);
+
+body {
+  background-color: $bg-colour;
+
+  h1 {
+    color: white;
+
+    span { // title random colour!
+
+    }
+  }
+
+  .colour-square {
+    width: 30%;
+    background-color: green;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%
+  }
+
+  #container {
+    margin: 0 auto;
+    max-width: 700px;
+  }
+}
+
+span {
+  color: white;
+}
