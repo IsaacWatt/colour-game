@@ -24,8 +24,17 @@ body {
     margin: 0 auto;
     max-width: 700px;
   }
-}
+  span {
+    color: white;
+  }
+  #stripe {
+    background: white;
+    height: 30px;
+    text-align: center;
 
-span {
-  color: white;
+    span {
+      color: black;
+    }
+    
+  }
 }

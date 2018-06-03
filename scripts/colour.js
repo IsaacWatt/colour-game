@@ -5,6 +5,17 @@ var correctColour = colourList[Math.floor(Math.random() * colourList.length)];
 var displayedColour = document.getElementById("game-colour");
 var guessResult =  document.querySelector("#guess-result");
 var header = document.querySelector("h1");
+var restartBtn = document.querySelector("#restart");
+
+restartBtn.addEventListener("click", function() {
+  colourList = makeColours(6);
+  var correctColour = colourList[Math.floor(Math.random() * colourList.length)];
+  displayedColour.textContent = correctColour;
+  for (var square = 0; square < colourSquares.length; ++square) {
+    colourSquares[square].style.backgroundColor = colourList[square];
+  }
+  header.style.background = "rgb(50, 100, 120)";
+})
 
 displayedColour.textContent = correctColour;
 
@@ -20,6 +31,7 @@ for (var square = 0; square < colourSquares.length; ++square) {
       guessResult.textContent = "Correct Colour!";
       changeColours(colourClicked);
       header.style.backgroundColor = correctColour;
+      restartBtn.textContent = "Play Again?";
     } else {
       this.style.backgroundColor = "rgb(50, 100, 120";
       guessResult.textContent = "Try Again!";

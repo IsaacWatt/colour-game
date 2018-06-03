@@ -11,8 +11,13 @@ body {
   body #container {
     margin: 0 auto;
     max-width: 700px; }
-
-span {
-  color: white; }
+  body span {
+    color: white; }
+  body #stripe {
+    background: white;
+    height: 30px;
+    text-align: center; }
+    body #stripe span {
+      color: black; }
 
 /*# sourceMappingURL=main.css.map */
