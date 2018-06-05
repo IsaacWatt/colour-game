@@ -19,5 +19,7 @@ body {
     text-align: center; }
     body #stripe span {
       color: black; }
+  body .selected {
+    background: blue; }
 
 /*# sourceMappingURL=main.css.map */
