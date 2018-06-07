@@ -47,7 +47,7 @@ restartBtn.addEventListener("click", function() {
   for (var square = 0; square < colourSquares.length; ++square) {
     colourSquares[square].style.backgroundColor = colourList[square];
   }
-  header.style.background = "rgb(50, 100, 120)";
+  header.style.background = "steelblue";
 })
 
 displayedColour.textContent = correctColour;

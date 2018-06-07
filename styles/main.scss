@@ -2,13 +2,22 @@
 $bg-colour: rgb(50, 100, 120);
 
 body {
-  background-color: $bg-colour;
+  background-color: #232323;
+  margin: 0;
+  font-family: "Montserrat", "Avenir";
 
   h1 {
     color: white;
+    line-height: 1.1;
+    text-align: center;
+    background-color: $bg-colour;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 20px 0;
 
     span { // title random colour!
-
+      font-size: 200%;
     }
   }
 
