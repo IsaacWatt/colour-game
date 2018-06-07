@@ -61,7 +61,7 @@ for (var square = 0; square < colourSquares.length; ++square) {
     var colourClicked = this.style.backgroundColor;
     console.log(colourClicked, correctColour);
     if (colourClicked === correctColour) {
-      guessResult.textContent = "Correct Colour!";
+      guessResult.textContent = "Correct!";
       changeColours(colourClicked);
       header.style.backgroundColor = correctColour;
       restartBtn.textContent = "Play Again?";
