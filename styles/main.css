@@ -50,7 +50,8 @@ body {
     font-size: inherit;
     transition: all 0.3s ease;
     -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s; }
+    -moz-transition: all 0.3s;
+    outline: none; }
     body button:hover {
       color: white;
       background: steelblue;

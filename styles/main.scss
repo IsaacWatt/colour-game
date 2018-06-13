@@ -71,6 +71,7 @@ body {
     transition: all 0.3s ease;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
+    outline: none;
 
     &:hover {
       color: white;
