@@ -44,7 +44,7 @@ function setSquares() {
         header.style.backgroundColor = correctColour;
         restartBtn.textContent = "Play Again?";
       } else {
-        this.style.backgroundColor = "rgb(50, 100, 120)";
+        this.style.backgroundColor = "#232323";
         guessResult.textContent = "Try Again!";
       }
   });
@@ -53,7 +53,7 @@ function setSquares() {
 
 function reset() {
   colourList = makeColours(numSquares);
-  var correctColour = colourList[Math.floor(Math.random() * colourList.length)];
+  correctColour = colourList[Math.floor(Math.random() * colourList.length)];
   restartBtn.textContent = "New Colours";
   displayedColour.textContent = correctColour;
   guessResult.textContent = "";
