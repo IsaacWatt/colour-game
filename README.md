@@ -1,3 +1,9 @@
 # colour-game
-A small side project to familiarize myself with DOM manipulation and JavaScript. 
-This project also gave me a better intuition for the rgb colour system. 
+- Inspiration 
+
+- photos of the interface
+- (photo, gif, photo width 250px) 
+
+- how to play 
+
+- how to run the game
