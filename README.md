@@ -1,5 +1,5 @@
 # colour-game
-- Inspiration 
+Colour game is an RGB guessing game made to be played in the browser. Colour game is a great way to build an intuition for the rgb colour scheme by practice! At each iteration, a list of 3, or 6 (depending on the chosen difficulty) colours will appear along with an rgb value. Your goal is to try and deduce which colour corresponds with the given rgb value. 
 
 <table align="center">
     <tr>
@@ -14,7 +14,3 @@
         </td>
     </tr>
 </table>
-
-- how to play 
-
-- how to run the game
