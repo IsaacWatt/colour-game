@@ -15,4 +15,4 @@ Colour game is an RGB guessing game made to be played in the browser. Colour gam
     </tr>
 </table>
 
-Check out [orb game]http://isaacwatt.me/rgb%20project/colour.html) and start practicing! 
+Check out [orb game](http://isaacwatt.me/rgb%20project/colour.html) and start practicing! 
